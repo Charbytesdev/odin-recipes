@@ -19,6 +19,8 @@ h1 {
 h1,
 a {
   display: flex;
+  overflow: hidden;
+  white-space: nowrap;
   justify-content: center;
   border-style: solid;
   border-color: red;
@@ -35,10 +37,11 @@ a {
   font-size: 30px;
   font-weight: 550;
   padding: 20px;
+
   background-color: #111010;
   border-radius: 30px;
   text-decoration: none;
-  transition: background-color 0.2s, color 0.3s ease-in;
+  transition: background-color 0.2s, color 0.3s;
 }
 
 /* Effect after hovering on recipe links */
