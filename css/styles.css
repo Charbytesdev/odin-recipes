@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  font-family: monospace, sans-serif;
+}
+
+/* header style */
+h1 {
+  font-family: monospace;
+  color: rgb(172, 52, 228);
+  font-size: 50px;
+  padding: 20px;
+
+  /* border stylecolor */
+  border-width: 10px;
+  border-top-width: 20px;
+}
+
+/* border style of header and anchor*/
+h1,
+a {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: red;
+  border-top-left-radius: 5cm;
+  border-bottom-left-radius: 2cm;
+  border-top-right-radius: 2cm;
+  border-bottom-right-radius: 5cm;
+  text-align: center;
+}
+
+a {
+  margin-bottom: 10px;
+  color: rgb(218, 49, 161);
+  font-size: 30px;
+  font-weight: 550;
+  padding: 20px;
+  background-color: #111010;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.3s ease-in;
+}
+
+/* Effect after hovering on recipe links */
+a:hover {
+  background-color: rgb(33, 33, 39);
+  color: green;
+}
